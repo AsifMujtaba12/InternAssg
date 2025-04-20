@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a:hover {
+  color: rgb(166, 134, 54);
+}
+.nav-links a {
+  color: white;
+  font-size: 18px;
+}
+
+/* Home */
+.hero {
+  background: url('/public/resturant.png') no-repeat center/cover;
+  height: 60vh;
+  margin-top: 60px;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  margin-bottom: 20px;
+}
+
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #ff7043;
+}
+
+/* About */
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Menu */
+.menu {
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-items .item {
+  text-align: center;
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items .item h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.menu-items .item p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact .contact-form button {
+  padding: 10px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact .contact-form button:hover {
+  background-color: #ff7043;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
